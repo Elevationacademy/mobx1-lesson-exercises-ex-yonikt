@@ -1,4 +1,5 @@
 import { observable } from 'mobx'
+import { observer } from 'mobx-react'
 
 @observer
 class Item extends Component {
