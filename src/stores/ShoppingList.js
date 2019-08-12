@@ -13,7 +13,7 @@ export class ShoppingList {
     }
 
     @action addItem = (name) => {
-        items.push(new Item(name))
+       this.list.push(new Item(name))
     }
     editItem = () => {
         // your code here
