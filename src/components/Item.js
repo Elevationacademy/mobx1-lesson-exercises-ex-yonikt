@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { observer } from 'mobx-react'
+import React, { Component } from 'react';
 
 @observer
 class Item extends Component {
